@@ -1,0 +1,77 @@
+# ===============================
+# 👩‍💻 PYTHON & BACKEND SETTINGS
+# ===============================
+
+# Virtual environments
+venv/
+venv310/
+env/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and caches
+*.log
+*.pot
+*.pycache
+.cache/
+.ipynb_checkpoints/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment and configuration files
+.env
+.env.*
+*.json
+*.yaml
+*.yml
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===============================
+# 🤖 MACHINE LEARNING ASSETS
+# ===============================
+
+# Model files
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.sav
+
+# Dataset and checkpoint folders
+data/
+datasets/
+checkpoints/
+results/
+outputs/
+models/
+
+# Large binary files
+*.npy
+*.npz
+*.ckpt
+
+# ===============================
+# 🧪 TEMP FILES & MISC
+# ===============================
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks temporary
+*.ipynb_checkpoints
