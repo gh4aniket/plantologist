@@ -7,7 +7,7 @@ const News = () => {
   const [newsData, setNewsData] = useState([]);
 
   const fetchNews = async (searchTerm = "indian agriculture policies") => {
-    const apiKey = "336f3660416b41e6b517dba018c2cd39"; // Replace with your API key
+    const apiKey = "yourapikey"; // Replace with your API key
     const url = `https://newsapi.org/v2/everything?q=${searchTerm}&apiKey=${apiKey}`;
 
     try {
