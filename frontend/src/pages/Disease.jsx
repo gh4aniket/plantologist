@@ -10,10 +10,10 @@ const DiseaseInfo = (props) => {
           setLoading(true);
 
         try {
-            const apiKey = "AIzaSyCKzadzI2LZKAJcxB_XPVz9127U-xECLK8"; // ⚠ Don't expose this in real apps!
+            const apiKey = "your ggogle api key here"; // ⚠ Don't expose this in real apps!
 
             const response = await fetch(
-                'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyCKzadzI2LZKAJcxB_XPVz9127U-xECLK8',
+                `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
                 {
                     method: 'POST',
                     headers: {
